@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/styles.css">
+  <!-- Score
+  Rules
+  You Picked
+  The House Picked
+  You Win
+  You Lose
+  Play Again -->
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header class="scoreboard">
+    <img class="scoreboard__logo" src="images/logo.svg" alt="Rock, Paper, Scissors">
+    <div class="scoreboard__box">
+      <p class="scoreboard__box--label">Score</p>
+      <p class="scoreboard__box--score">0</p>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <article class="game-wrapper">
+      <button class="btn-paper" aria-label="Paper"></button>
+      <button class="btn-rock" aria-label="Rock"></button>
+      <button class="btn-scissors" aria-label="Scissors"></button>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <button class="btn-reset" aria-label="Reset">Reset</button>
+    <button class="btn-rules" aria-label="Rules">Rules</button>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jarno Gombert</a>.
+  </div>
+</body>
+</html>
