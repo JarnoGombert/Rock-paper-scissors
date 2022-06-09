@@ -1,1 +1,4 @@
-/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
+body {
+  background-color: hsl(214deg, 47%, 23%), hsl(237deg, 49%, 15%);
+}/*# sourceMappingURL=style.css.map */
