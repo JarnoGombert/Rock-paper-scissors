@@ -1,5 +1,27 @@
 @import 'variables';
 
 body {
-    background-color: $Radial_Gradient;
+    margin: $margin_auto;
+    background: $Radial_Gradient;
+    font-weight: $weights;
+    font-family: $Family;
+}
+
+// Begin Header 
+.scoreboard {
+    border: 1px solid $Header_Outline;
+    display: flex;
+}
+.scoreboard__logo{
+    padding: 30px 30px;
+}
+.scoreboard__box{
+    background-color: white;
+    margin: 30px 30px;
+}
+.scoreboard__box--label{
+    color: $Score_Text;
+}
+.scoreboard__box--score{
+    color: $Dark_Text;
 }

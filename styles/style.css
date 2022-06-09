@@ -1,4 +1,29 @@
 @import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
 body {
-  background-color: hsl(214deg, 47%, 23%), hsl(237deg, 49%, 15%);
+  margin: 0 auto;
+  background: radial-gradient(circle at center, hsl(214deg, 47%, 23%), hsl(237deg, 49%, 15%));
+  font-weight: 650;
+  font-family: "Barlow Semi Condensed", Helvetica, sans-serif;
+}
+
+.scoreboard {
+  border: 1px solid hsl(217deg, 16%, 45%);
+  display: flex;
+}
+
+.scoreboard__logo {
+  padding: 30px 30px;
+}
+
+.scoreboard__box {
+  background-color: white;
+  margin: 30px 30px;
+}
+
+.scoreboard__box--label {
+  color: hsl(229deg, 64%, 46%);
+}
+
+.scoreboard__box--score {
+  color: hsl(229deg, 25%, 31%);
 }/*# sourceMappingURL=style.css.map */
