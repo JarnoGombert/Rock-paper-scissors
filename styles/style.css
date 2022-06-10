@@ -1,12 +1,16 @@
 @import url("https://fonts.google.com/specimen/Barlow+Semi+Condensed");
 body {
-  margin: 0 auto;
+  margin: 0xp auto;
   background: radial-gradient(circle at center, hsl(214deg, 47%, 23%), hsl(237deg, 49%, 15%));
   font-weight: 650;
   font-family: "Barlow Semi Condensed", Helvetica, sans-serif;
 }
 
 .scoreboard {
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 50%;
   border: 1px solid hsl(217deg, 16%, 45%);
   display: flex;
 }

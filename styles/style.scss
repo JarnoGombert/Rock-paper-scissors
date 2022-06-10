@@ -9,6 +9,8 @@ body {
 
 // Begin Header 
 .scoreboard {
+    justify-content: space-between;
+    align-items: center;
     width: 50%;
     height: 50%;
     border: 1px solid $Header_Outline;
