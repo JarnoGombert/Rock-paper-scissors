@@ -17,6 +17,14 @@ body {
 }
 
 // Begin Header 
+header{
+    width: 100%;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: space-around;
+    display: flex;
+    align-content: center;
+}
 .scoreboard {
     justify-content: space-between;
     align-items: center;
@@ -47,4 +55,59 @@ body {
 .scoreboard__box--score{
     color: $Dark_Text;
     font-weight: 700;
+}
+// Einde Header
+
+// Begin midden
+.site-main{
+
+}
+
+.game-wrapper{
+
+}
+
+.btn-paper{
+    background-image: $logo_Paper;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    border: 12px solid #4865f4;
+    border-radius: 50%;
+    box-shadow: inset 0 6px rgba(0, 0, 0, 0.2), 0 6px rgba(86, 113, 245, 0.7);
+    cursor: pointer;
+    padding: 350px 0px;
+    width: 45%;
+    height: 45%;
+}
+
+.btn-rock{
+    background-image: $logo_Rock;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    border: 12px solid #dc2e4e;
+    border-radius: 50%;
+    box-shadow: inset 0 6px rgba(0, 0, 0, 0.2), 0 6px rgba(221, 64, 93, 0.7);
+    cursor: pointer;
+    padding: 350px 0px;
+    width: 45%;
+    height: 45%;
+}
+
+.btn-scissors {
+    background-image: $logo_Scissors;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    border: 12px solid #ec9e0e;
+    border-radius: 50%;
+    box-shadow: inset 0 6px rgba(0, 0, 0, 0.2), 0 6px rgba(236, 169, 34, 0.7);
+    cursor: pointer;
+    padding: 350px 0px;
+    width: 45%;
+    height: 45%;
 }
